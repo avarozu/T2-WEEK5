@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Jauda Avaro Zufaru</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top custom-nav shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-accent" href="#home">Tugas Portofolio</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="fas fa-bars text-white"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Pendidikan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Keahlian</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hobbies">Hobi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Pengalaman</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero-section d-flex align-items-center">
+        <div class="container text-center position-relative z-1 mt-5">
+            <div class="profile-wrapper mb-4">
+                <img src="Kebutuhangambar/fotoformal.jpg" alt="Foto Formal Jauda Avaro" class="profile-img shadow-lg">
+            </div>
+            <h1 class="display-4 fw-bold text-white mb-2">Jauda Avaro Zufaru</h1>
+            <p class="lead text-hero-muted mb-4">Mahasiswa Teknik Informatika | Universitas Mataram</p>
+            <a href="#about" class="btn btn-accent rounded-pill px-5 py-2 shadow-lg">Eksplorasi Profil</a>
+        </div>
+        <div class="abstract-shape shape-1"></div>
+        <div class="abstract-shape shape-2"></div>
+    </header>
+
+    <section id="about" class="section-padding bg-sec border-bottom-subtle">
+        <div class="container text-center">
+            <h2 class="section-title mb-4">Mengenal Lebih Dekat</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <p class="text-muted fs-5 lh-lg mb-0">
+                        Saya memadukan logika komputasi dengan keindahan desain antarmuka. Terinspirasi dari presisi otomotif dan kebebasan travelling, saya merancang sistem yang efisien dan memanjakan mata. Dalam rutinitas, saya sangat menghargai performa, baik itu menjaga kesehatan baterai laptop tetap prima, hingga mempertahankan fokus dengan hal sederhana namun terstruktur.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section-padding bg-main">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Riwayat Pendidikan</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="edu-card shadow-sm">
+                        <div class="video-container">
+                            <video autoplay muted loop playsinline class="local-video">
+                                <source src="Kebutuhangambar/unramvids.mp4" type="video/mp4">
+                                Browser Anda tidak mendukung tag video.
+                            </video>
+                        </div>
+                        <a href="https://unram.ac.id" target="_blank" class="edu-overlay d-flex flex-column justify-content-end p-4 text-decoration-none">
+                            <h4 class="text-white fw-bold">Universitas Mataram</h4>
+                            <p class="text-accent-light mb-0">Teknik Informatika (2024 - Sekarang)</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <a href="http://sman1mataram.sch.id" target="_blank" class="text-decoration-none">
+                        <div class="edu-card shadow-sm" style="background-image: url('https://radarlombok.co.id/wp-content/uploads/2021/01/F-SMA-1.jpg');">
+                            <div class="edu-overlay d-flex flex-column justify-content-end p-4">
+                                <h4 class="text-white fw-bold">SMAN 1 Mataram</h4>
+                                <p class="text-accent-light mb-0">Lulusan Terbaik</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <div class="edu-card shadow-sm" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7cgZZ7l5fE3j_PeI0vXd5lTm__4ITQa5vsA&s');">
+                        <div class="edu-overlay d-flex flex-column justify-content-end p-4">
+                            <h4 class="text-white fw-bold">SMPN 6 Mataram</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="edu-card shadow-sm" style="background-image: url('https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=800&q=80');">
+                        <div class="edu-overlay d-flex flex-column justify-content-end p-4">
+                            <h4 class="text-white fw-bold">SDN 7 Mataram</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-padding bg-sec border-top-subtle border-bottom-subtle">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5 text-center">
+                    <div class="casual-photo-wrapper">
+                        <img src="Kebutuhangambar/fotosayakeren.png" alt="Jauda Avaro Casual" class="img-fluid rounded-4 shadow-lg casual-img">
+                        <div class="photo-backdrop"></div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <h2 class="section-title mb-4">Kompetensi Inti</h2>
+                    <p class="text-muted mb-5">Penguasaan berbagai instrumen dan bahasa pemrograman yang memadukan logika komputasi dan visual presentasi tingkat lanjut.</p>
+                    
+                    <div class="row g-4">
+                        <div class="col-sm-6"><div class="skill-item shadow-sm"><img src="Kebutuhangambar/icon-cpp.png" alt="C++"> <span>C++ Programming</span></div></div>
+                        <div class="col-sm-6"><div class="skill-item shadow-sm"><img src="Kebutuhangambar/icon-java.png" alt="Java"> <span>Java</span></div></div>
+                        <div class="col-sm-6"><div class="skill-item shadow-sm"><img src="Kebutuhangambar/icon-cisco.png" alt="Cisco"> <span>Cisco Packet Tracer</span></div></div>
+                        <div class="col-sm-6"><div class="skill-item shadow-sm"><img src="Kebutuhangambar/icon-logisim.png" alt="Logisim"> <span>Logisim</span></div></div>
+                        <div class="col-sm-6"><div class="skill-item shadow-sm"><img src="Kebutuhangambar/icon-word.png" alt="Word"> <span>MS Word</span></div></div>
+                        <div class="col-sm-6"><div class="skill-item shadow-sm"><img src="Kebutuhangambar/icon-ppt.png" alt="PowerPoint"> <span>MS PowerPoint</span></div></div>
+                        <div class="col-sm-6"><div class="skill-item shadow-sm"><img src="Kebutuhangambar/icon-canva.png" alt="Canva"> <span>Canva Design</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies" class="section-padding bg-main">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Minat & Hobi</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                    <div class="hobby-card shadow-sm h-100">
+                        <div class="hobby-img-wrapper">
+                            <img src="Kebutuhangambar/indahalam.jpg" alt="Keindahan Alam" class="hobby-img">
+                        </div>
+                        <div class="hobby-body p-4">
+                            <h5 class="fw-bold"><i class="fas fa-map-marked-alt text-accent me-2"></i>Eksplorasi Perjalanan</h5>
+                            <p class="text-muted small mb-0">Menikmati perjalanan jarak jauh (<em>travelling</em>) untuk mengeksplorasi rute baru. Keindahan alam memberikan saya ketenangan dan perspektif segar di luar logika komputasi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="hobby-card shadow-sm h-100">
+                        <div class="hobby-img-wrapper">
+                            <img src="Kebutuhangambar/lx600.jpg" alt="Lexus LX600" class="hobby-img">
+                        </div>
+                        <div class="hobby-body p-4">
+                            <h5 class="fw-bold"><i class="fas fa-car text-accent me-2"></i>Ketangguhan SUV</h5>
+                            <p class="text-muted small mb-0">Sangat mengapresiasi mekanika dan kegagahan mobil SUV kekar seperti lini Lexus. Menginspirasi saya tentang pentingnya sistem yang <em>durable</em> dan tangguh.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="hobby-card shadow-sm h-100">
+                        <div class="hobby-img-wrapper">
+                            <img src="Kebutuhangambar/audi.jpg" alt="Mobil Audi" class="hobby-img">
+                        </div>
+                        <div class="hobby-body p-4">
+                            <h5 class="fw-bold"><i class="fas fa-tachometer-alt text-accent me-2"></i>Estetika Otomotif</h5>
+                            <p class="text-muted small mb-0">Kagum pada desain aerodinamis dan keindahan visual mobil premium seperti Audi. Representasi sempurna dari gabungan antara performa mesin dan <em>user interface</em> yang elegan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section-padding position-relative border-top-subtle">
+        <div class="exp-bg" style="background-image: url('Kebutuhangambar/logounram.png');"></div>
+        <div class="exp-overlay-light"></div>
+        
+        <div class="container position-relative z-1">
+            <h2 class="section-title text-center mb-5">Jejak Organisasi</h2>
+            <div class="row justify-content-center g-4">
+                <div class="col-md-8">
+                    <div class="org-card shadow-sm">
+                        <div class="org-header d-flex justify-content-between align-items-center">
+                            <h4 class="mb-0 fw-bold"><i class="fas fa-users me-3 text-accent"></i>UKM PRIMA Unram</h4>
+                            <i class="fas fa-chevron-down text-muted"></i>
+                        </div>
+                        <div class="org-body">
+                            <hr class="border-secondary opacity-25">
+                            <ul class="text-muted lh-lg">
+                                <li>Panitia Fast Breaking</li>
+                                <li>Panitia Kongres & Musyawarah Kerja</li>
+                                <li>Panitia Milad UKM PRIMA ke-15</li>
+                                <li>CO Acara GWC</li>
+                                <li>Panitia PRISMA</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="org-card shadow-sm">
+                        <div class="org-header d-flex justify-content-between align-items-center">
+                            <h4 class="mb-0 fw-bold"><i class="fas fa-comments me-3 text-accent"></i>UKM argUMent Unram</h4>
+                            <i class="fas fa-chevron-down text-muted"></i>
+                        </div>
+                        <div class="org-body">
+                            <hr class="border-secondary opacity-25">
+                            <ul class="text-muted lh-lg">
+                                <li>Panitia Gathering</li>
+                                <li>Panitia Rapat Kerja (Raker)</li>
+                                <li>CO Humper Workshop Media</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="org-card shadow-sm">
+                        <div class="org-header d-flex justify-content-between align-items-center">
+                            <h4 class="mb-0 fw-bold"><i class="fas fa-flask me-3 text-accent"></i>KIR SMAN 1 Mataram</h4>
+                            <i class="fas fa-chevron-down text-muted"></i>
+                        </div>
+                        <div class="org-body">
+                            <hr class="border-secondary opacity-25">
+                            <ul class="text-muted lh-lg">
+                                <li>Ketua Kelompok Ilmiah Remaja (Kelas 2 SMA)</li>
+                                <li>Memimpin riset dan diskusi keilmiahan siswa.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer-section">
+        <div class="container text-center">
+            <h3 class="fw-bold text-white mb-4">Mari Berdiskusi</h3>
+            <div class="contact-icons mb-5">
+                <a href="https://wa.me/6281915961305" target="_blank" class="icon-btn wa"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/avaro.zu/" target="_blank" class="icon-btn ig"><i class="fab fa-instagram"></i></a>
+                <a href="https://t.me/avarozu" target="_blank" class="icon-btn tg"><i class="fab fa-telegram-plane"></i></a>
+                <a href="mailto:avarojauda20@gmail.com" class="icon-btn mail"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/avarozu" target="_blank" class="icon-btn git"><i class="fab fa-github"></i></a>
+            </div>
+            <hr class="border-secondary opacity-50">
+            <p class="text-white-50 mt-4 mb-0">&copy; 2026 Jauda Avaro Zufaru - F1D02410059.<br>Tugas 2 Pemrograman Web CSS | Universitas Mataram.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
